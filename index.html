@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+  <title>Saneet Shrestha</title>
+</head>
+
+<body data-spy='scroll' data-target='#mySidenav' id='home'>
+   <!--  <nav class='navbar navbar-inverse'>
+        <div >
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+              </ul>
+        </div>
+      </nav>   -->    
+   <!--NAVIGATION-------------------->
+       <div id="mySidenav" class="sidenav">
+          <div id='mainnav'><br>
+            <a href="#personal" class='nav-link mr-4'>Personal Information</a>
+            <a href="#portfolio" class='nav-link'>Portfolio</a>
+            <a href="#work" class='nav-link'>Experience</a>
+            <a href="#contact" class='nav-link'>Contact</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+          </div>
+      </div> 
+      <a onclick="topFunction()" id="myBtn" title="Go to top" class=" px-3  "><i class="fas fa-chevron-circle-up fa-2x"></i></a> 
+      <!-- <ul class="navbar-nav sidenav " id='mySidenav'>
+        <li class="nav-item">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#personal">Section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Section 3</a>
+        </li>
+        <li class="nav-item dropdown">
+          
+          <a class="nav-link" href="#contact">Section 3</a>
+        </li>
+      </ul> -->
+
+  <div class="row">
+      <span style=" font-size:30px;cursor:pointer " class="navi" onclick="openNav()"> &#9776;<br> <p style="font-size: 20px;" class="d-lg-block d-none">MENU</p> </span>
+<!---HIDDEN PORTRAIT AND INFO-->
+    <div class="col-md-12 d-lg-none d-block hiddenportrait  text-center  d-md-block d-none ">
+        <div class="d-flex flex-column  ">
+            <div>
+                <img class="p-5 portrait img-fluid" src="img/portrait_small.png" alt="" srcset="">
+      
+            </div>  
+            <div>
+                <h4>SANEET SHRESTHA</h4>
+            </div>
+               
+             
+            
+           
+           
+                <div class="py-2">
+                  <p class="d-inline-block"><i class="pl-2 fas fa-envelope text-primary "></i> <span class="px-2 font-weight-bold"> shrestha.saneet@gmail.com</span> </p>
+                </div>
+
+                <div class="py-2">
+                    <p class="d-inline-block"><i class="pl-2 fas fa-phone text-primary "></i> <span class="px-2 font-weight-bold"> 9860572084</span> </p>
+                  </div>
+             
+            
+                <div >
+                    <p class="d-inline-block"><i class="pl-2 fas fa-home text-primary "></i> <span class="px-2 font-weight-bold">Nayabazar-16, Balaju,Kathmandu</span> </p>
+                </div>
+           
+            
+              </div>
+            </div>
+  </div>
+  <!--PERSONAL INFORMATION----------->
+  <div class="container1">
+    <div class="row topmargin" id="personal">
+
+      <!-----Side Sticker-->
+      <div class="col-md-3 col-sm-10  sticker text-center  d-md-block d-none ">
+        <div class="d-flex flex-column  ">
+            <div>
+                <img class="p-5 portrait img-fluid" src="img/portrait_small.png" alt="" srcset="">
+      
+            </div>  
+            <div>
+                <h4 class="pb-3">SANEET SHRESTHA</h4>
+            </div>
+               
+             
+            
+           
+           
+                <div class="py-2">
+                  <p class="d-inline-block"><i class="pl-2 fas fa-envelope text-primary "></i> <span class="px-2 font-weight-bold"> shrestha.saneet@gmail.com</span> </p>
+                </div>
+
+                <div class="py-2">
+                    <p class="d-inline-block"><i class="pl-2 fas fa-phone text-primary "></i> <span class="px-2 font-weight-bold"> 9860572084</span> </p>
+                  </div>
+             
+            
+                <div >
+                    <p class="d-inline-block"><i class="pl-2 fas fa-home text-primary "></i> <span class="px-2 font-weight-bold">Nayabazar-16, Balaju,Kathmandu</span> </p>
+                </div>
+           
+            
+              </div>
+            </div>
+<div class="col-lg-8 offset-lg-4 bg-white">
+            <div class='px-4'>
+              <h4 class="mt-5">Hello, I am Saneet!</h4>
+              <h5 class='py-5 text-justify'>I am an Electrical Engineer and a self-taught front-end developer looking for a career change into web development. I am a highly motivated individual and a team player</h5>
+              <hr>
+              <div>
+                <h4 class="text-muted">personal information</h4>
+                <div class="d-flex flex-column pt-5">
+                    <div class="row">
+                        <div class="col-3"><p class="font-weight-bold">Full Name:</div>
+                         <div class="col-6"> <span class="text-muted font-weight-bold">   Saneet Shrestha</span></p>
+                         </div>
+                        </div
+                </div>
+                  <div class="row">
+                    <div class="col-3"><p class="font-weight-bold">D.O.B:</div>
+                     <div class="col-6"> <span class="text-muted font-weight-bold">   1988/11/11</span></p>
+                     </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3"><p class="font-weight-bold">Address:</div>
+                         <div class="col-6"> <span class="text-muted font-weight-bold">   Nayabazar-16,Balaju, Kathmandu</span></p>
+                         </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3"><p class="font-weight-bold">Email:</div>
+                             <div class="col-6"> <span class="text-muted font-weight-bold">   shrestha.saneet@gmail.com</span></p>
+                             </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-3"><p class="font-weight-bold">Phone:</div>
+                                 <div class="col-6"> <span class="text-muted font-weight-bold">   9860572084</span></p>
+                                 </div>
+                                </div>
+                </div>
+                    
+
+                  <!-- <div class="d-flex flex-column">
+                    <div class="row py-5">
+                      <div class="col-4">
+                          <p class="pb-3 font-weight-bold">FULL NAME:</p>
+                          <h5 class="pb-3">DOB:</h5>
+                          <h5 class="pb-3">ADDRESS:</h5>
+                          
+                          <h5 class="pb-3">EMAIL: </h5>
+                          <h5 class="pb-3">PHONE:</h5>
+                      </div> 
+                        
+                      
+                       <div class="col-6 text-muted">
+                         <h5 class="pb-3" >Saneet Shrestha</h5>
+                         <h5 class="pb-3"> 1988/11/11</h5>
+                         <h5 class="pb-3">Nayabazar-16,Balaju, Kathmandu</h5>
+                         <h5 class="pb-3">shrestha.saneet@gmail.com</h5>
+                         <h5 class="pb-3">+977 9860572084</h5>
+                       </div>
+                       
+                      </div>
+                  </div> -->
+              </div>
+              <hr>
+              <div class="row pb-5">
+                  <div class="col-6 order-2">
+              <div class='professional-skills py-2'>
+                  <h4 class="text-muted pb-5">soft skills</h4>
+               
+
+                    <p class="font-weight-bold">
+                      <i class="fas fa-check pr-3"></i> Self-Motivated
+                    </p>
+                   
+                    <p class="font-weight-bold">
+                      <i class="fas fa-check pr-3"></i> Managerial Skills
+                    </p>
+                    <p class="font-weight-bold">
+                      <i class="fas fa-check pr-3"></i> Creative
+                    </p>
+                    <p class="font-weight-bold">
+                      <i class="fas fa-check pr-3"></i> Customer Oriented
+                    </p>
+                  </div>
+
+                
+                </div>
+                <div class="col-6 order-1">
+                    <div class='professional-skills py-2'>
+                        <h4 class="text-muted pb-5">professional skills</h4>
+                     
+      
+                          <p class="font-weight-bold">
+                            <i class="fas fa-check pr-3"></i> HTML
+                          </p>
+                         
+                          <p class="font-weight-bold">
+                            <i class="fas fa-check pr-3"></i>CSS
+                          </p>
+                          <p class="font-weight-bold">
+                            <i class="fas fa-check pr-3"></i> Bootstrap Framework
+                          </p>
+                          <p class="font-weight-bold">
+                            <i class="fas fa-check pr-3"></i> Javascript (Basic)
+
+                          </p>
+                          <p class="font-weight-bold">
+                              <i class="fas fa-check pr-3"></i> Adobe Photoshop
+                              
+                            </p>
+                            <p class="font-weight-bold">
+                              <i class="fas fa-check pr-3"></i> Git
+                              
+                            </p>
+                        </div>
+      
+                      
+                      </div>
+              </div> 
+            
+                            
+            </div >
+          </div>  
+          <hr>
+
+           
+          
+        
+      
+      
+      
+    </div>
+
+   
+  </div>
+  <!--PORTFOLIO------------------------>
+ <div class="container1" id='portfolio'>
+<div class="row">
+    <div class="col-lg-8 offset-lg-4 bg-white mt-5 pb-5 ">
+        <div class='px-4'>
+    <h4 class="my-5">PORTFOLIO</h4>
+    <div class="imagebox">
+      <div class="d-flex flex-column"> 
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center py-3 ">
+                <div class="portfolio1" ><img src="img/saneet-studios.jpg"  alt="" srcset="">
+                <div class="overlay">
+                  <div class="text-center text-white py-5 "><h4>SANEET STUDIOS</h4>
+                    <a href="https://saneetshrestha.github.io/saneetstudios/" type="button" target="_blank" class=" mt-5 btn btn-primary">View Project</a>
+                    <p class="p-4 font-weight-bold">A  responsive landing page template I made using bootstrap with cool scroll reveal effect</p>
+                  
+                  </div></div>
+        </div>
+              </div>
+            <div class="col-md-6 text-center py-3">
+      
+              <div  class="portfolio1"><img src="img/saneetlabs.png" alt="" srcset="">
+                <div class="overlay">
+                <div class="text-center text-white py-5 "><h4>SANEET LABS</h4>
+                  <a href="https://saneetshrestha.github.io/saneetlabs/" type="button" target="_blank" class=" mt-5 btn btn-primary">View Project</a>
+                  <p class="p-4 font-weight-bold ">A  simple responsive landing page with sign up form and contact modal</p>
+                </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-center">
+
+        <div class="row justify-content-center">
+          <div class="col-md-6 text-center ">
+              <div class="portfolio1"><img src="img/almighty.png" alt="" srcset="">
+                <div class="overlay">
+                  <div class="text-center text-white py-5 px-3 "><h4>ALMIGHTY SUPPLIERS PVT. LTD.</h4>
+                    <a href="https://almightysuppliers.com" type="button" target="_blank" class=" mt-5 btn btn-primary">View Project</a>
+                    <p class="p-4 font-weight-bold ">Wordpress website for Almighty Suppliers Pvt. Ltd.</p>
+                  </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 text-center py-4">
+    
+            <div class='portfolio1' ><img src="img/katmomo_logo.png" class="img-fluid" alt="" srcset="">
+              <div class="overlay">
+                <div class="text-center text-white py-5 "><h4><a href="http://facebook.com/katmandumomo" target='_blank'>KATMANDU MOMO </a> </h4>
+                  <a href="https://gitlab.com/shrestha.saneet/katmomologo/blob/5d8c4ae8e8b3d8216ee9b3585eb393cd6ab7335e/katmomologo_final.png" type="button" target="_blank" class=" mt-5 btn btn-primary">View Project</a>
+                  <p class="p-4 font-weight-bold ">A logo I designed using Photoshop and Illustrator for a US based Nepali Restaurant</p>
+                </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      </div>
+    </div>
+
+  </div>
+  </div>
+ </div> 
+
+</div>
+<!--WORK EXPERIENCE and EDUCATION----------------------->
+<div class="container1" id='work'>
+  <div class="row mt-5">
+    <div class="work-experience col-lg-8 offset-lg-4 bg-white">
+        <h4 class="p-5"> WORK EXPERIENCE</h4>
+      <div class="row mx-1">
+        <div class="col-3 "> <span class="px-4 expdate text-dark">2018-Current</span> </div>
+        <div class="col-9">
+            <i class="fas fa-circle small"></i> <strong>Technical Advisor</strong>
+            <p class="lead">
+              Almighty Suppliers Pvt. Ltd.
+            </p>
+            <p>
+              -Provide technical details to clients and seniors on all electrical equipments.
+            </p>
+            <p>
+              -Ensure the correct installation, pre-commissioning, commissioning and maintenance practices are followed 
+            </p>
+            <p>
+              -Overall responsibility of the management of site activities including planning, organizing, integrating and directing of resources such as labor, tools and materials as required to complete the work scope according to contractual requirements
+            </p>
+        </div>
+      </div>
+        <div class="row mx-1">
+            <div class="col-3 "> <span class="px-4 expdate text-dark">2015-2017</span> </div>
+            <div class="col-9">
+                <i class="fas fa-circle small"></i> <strong>Sales & Design Engineer</strong>
+                <p class="lead">
+                  R&B Electric Pvt. Ltd.
+                </p>
+                <p>
+                  -Designing solar power systems for residential and commercial purposes
+
+                </p>
+                <p>-Supervising the system installations to ensure it is according to the design and specifications</p>
+                <p>
+                  -Making progress reports and presentations
+                </p>
+               
+            </div>
+      </div>
+    <div class="row mx-1">
+        <div class="col-3 "> <span class="px-4 expdate text-dark">2014-2015</span> </div>
+        <div class="col-9">
+            <i class="fas fa-circle small"></i> <strong>Asistant Engineer</strong>
+            <p class="lead">
+              Kulekhani III Hydropower Project
+            </p>
+            <p>
+              -Supervision and installation of substation and transmission line
+
+            </p>
+            <p>-Preparing progress reports for serniors</p>
+           
+           
+        </div>
+      </div>
+      <hr>
+      <h4 class="p-5">EDUCATION</h4>
+      <div class="row mt-1 mx-1 mb-5">
+        <div class="col-3 "> <span class="px-4 expdate text-dark">2010-2014</span> </div>
+        <div class="col-9">
+            <i class="fas fa-circle small"></i> <strong>Bachelors in Electrical Engineering</strong>
+            <p class="lead">
+              Kathmandu Engineering College,Kalimati
+            </p>
+            
+           
+           
+        </div>
+      </div>
+    </div>
+    <hr>
+    
+  </div>
+        
+    
+ 
+  
+  
+
+    </div>
+  </div>
+<!--CONTACT ME------------>
+  <div class="container1" id='contact'>
+    <div class="row text-center">
+        
+        <div class="col-lg-8 offset-lg-4 bg-white mt-5 py-5 ">
+          
+            <h4 class="py-5">CONTACT</h4>
+            <div class="row">
+                <div class="col-3"><p class="font-weight-bold">Email:</div>
+                 <div class="col-6"> <span class="text-muted font-weight-bold">   shrestha.saneet@gmail.com</span></p>
+                 </div>
+                </div>
+                <div class="row">
+                    <div class="col-3"><p class="font-weight-bold">Phone:</div>
+                     <div class="col-6"> <span class="text-muted font-weight-bold">   9860572084</span></p>
+                     </div>
+                    </div>
+                <div class="row">
+                      <div class="col-3"><p class="font-weight-bold">Address:</div>
+                       <div class="col-6"> <span class="text-muted font-weight-bold">   Nayabazar-16,Balaju, Kathmandu</span></p>
+                 </div>
+      </div>
+     </div> 
+    
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+          document.querySelector('.navi').style.display="none";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.querySelector('.navi').style.display="block";
+        }
+
+        //Init scroll spy
+        $('body').scrollspy({target:'#mainnav' });
+
+        //to top
+     
+      
+        </script>
+        
+        <script>
+           // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 340|| document.documentElement.scrollTop > 340) {
+        
+        document.getElementById("myBtn").style.opacity = "1";
+        document.getElementById("myBtn").style.display = "block";
+        
+
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+        </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+
+</html>
