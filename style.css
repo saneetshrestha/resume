@@ -4,9 +4,9 @@
   overflow-x: hidden;
 
 }
-html {
+/* html {
   scroll-behavior: smooth;
-}
+} */
 body{
   background: url('img/background_texture.jpg');
   background-attachment: fixed;
@@ -173,4 +173,13 @@ h4{
 
 #myBtn:hover {
   color: #85C4CB; /* Add a dark-grey background on hover */
+}
+
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:20px;
+	right:10px;	
 }
