@@ -26,25 +26,21 @@ body{
  .sticker{
    background-color: #C0E3E7;
    height: auto;
-   width:auto;
-   margin-top:0vh;}
+   min-width: 280px;
+   margin-top:0vh;
+   position: fixed; 
+  }
+
+  .sticker .icon{
+      flex:0 0 20px;
+      min-width:20px;
+  }
    /* margin-left: 1vw; } */
 
  .portrait{
    margin:auto;
    border-radius: 500px;
  }
-
- .sticker {
-  position: fixed;
-}
-/* 
-@media only screen and (max-width : 480px) {
-  .sticker {
-      position: absolute;
-      
-  }
-} */
 
 
 ​.expdate { /* our rectangle */
@@ -98,7 +94,7 @@ h4{
 
 .navi{
   position: fixed;
-  top:50vh;;
+  top:60%;
   left:0.3%;
   z-index: 1;
   transition: 0.5s;
