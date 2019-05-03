@@ -157,7 +157,6 @@ h4{
 }
 
 #myBtn {
-  
   opacity: 0;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
@@ -171,3 +170,17 @@ h4{
   color: #85C4CB; /* Add a dark-grey background on hover */
 }
 
+body{
+  min-width: 320px;
+}
+
+a{
+  color:black;
+}
+a:hover{
+  text-decoration: none;
+}
+
+.personal-information a:hover,#contact a:hover{
+  color:#007BFF !important;
+}
