@@ -11,7 +11,7 @@ body{
   background: url('img/background_texture.jpg');
   background-attachment: fixed;
   font-family: 'Quicksand', sans-serif;
-  
+  overflow-x:hidden;
 }
 
 .container1{
@@ -147,12 +147,42 @@ h4{
   height: 100%;
   width: 100%;
   opacity: 0;
+  display: hidden;
   transition: .5s ease;
-  background-color: rgba(10, 10, 10, 0.445);
+  background-color: rgba(10, 10, 10, 0.2);
+  z-index:-99;
 }
 
 .portfolio1:hover .overlay{
   opacity:1;
+  display: block;
+  z-index:99;
+}
+
+.portfolio2:hover .overlay{
+  opacity:1;
+  display: block;
+  z-index:99;
+}
+
+.portfolio1,.portfolio2{
+  /* max-width: auto;  */
+  height: 400px;
+  background-position: top center;
+  background-size: cover;
+  overflow: hidden;
+  transition:transform 1s, background-position 1s;
+}
+
+.portfolio1:hover,.portfolio2:hover{
+  overflow-y: hidden;
+  background-position: bottom center;
+  transform:scale(1.05);
+  transition:transform 1s, background-position 2s;
+}
+
+.portfolio2:hover{
+  transform:scaleY(1.02);
 }
 
 #myBtn {
